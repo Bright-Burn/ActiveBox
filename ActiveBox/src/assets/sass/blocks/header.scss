@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    padding: 2rem 0 1.7rem;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+.header.fixed {
+    position: fixed;
+    padding: 1rem 0 0.8rem;
+    background-color: #31344e;
+}
+
+
+//.header__inner {
+//
+//    width: 100%;
+//    padding: 3rem 0;
+//
+//    position: absolute;
+//    top: 0;
+//    left: 0;
+//    z-index: 1;
+//}
+
+.header__logo {
+    padding-left: 1rem;
+}
+.logo {
+
+    &:focus {
+        outline: 0;
+    }
+}

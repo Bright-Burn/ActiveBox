@@ -1,0 +1,29 @@
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1rem 3.1rem;
+
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: $white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background 0.1s linear;
+
+}
+
+
+.btn--red {
+    background-color: #e84545;
+
+    &:hover {
+        background-color: #db3636;
+    }
+}

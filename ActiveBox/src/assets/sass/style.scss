@@ -1,0 +1,60 @@
+
+
+@import "vars";
+
+
+/* Default styles */
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    background-color: #fff;
+
+    font-family: 'Raleway', sans-serif;
+    color: $gray;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+p{
+    margin: 0 0 10px;
+}
+/* Vendor libs*/
+@import "vendor/slick";
+
+/* Bootstrap */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/modal";
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/container";
+@import "blocks/nav";
+@import "blocks/burger";
+@import "blocks/intro";
+@import "blocks/btn";
+@import "blocks/features";
+@import "blocks/works";
+@import "blocks/team";
+@import "blocks/clients";
+@import "blocks/downloads";
+@import "blocks/footer";
+@import "blocks/copyright";
+
+

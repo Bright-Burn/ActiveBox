@@ -1,0 +1,35 @@
+.footer {
+    padding: 4.3rem 0;
+    background-color: #3a3e64;
+    text-align: center;
+}
+.team__social-item {
+
+    .footer__social-item & .social__icon {
+        fill: $white;
+        border: $white;
+
+    }
+    &:hover .social__icon {
+        fill: $black;
+    }
+}
+
+.footer__content-title {
+    margin-bottom: 1.1rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: $white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer__content-subtitle {
+    margin-bottom: 1rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9092a7;
+    font-family: 'Raleway', sans-serif;
+}

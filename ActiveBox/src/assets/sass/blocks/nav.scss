@@ -1,0 +1,62 @@
+.nav {
+    text-align: right;
+
+        @media(max-width:$breakpoint_l){
+        display: none;
+        width: 100%;
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+
+        background: rgba(49, 52, 78, 0.5);
+
+        &.show {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+    }
+
+
+}
+
+
+.nav__link {
+    margin-left: 3.3rem;
+
+
+
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: $white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: 0.7;
+    outline: none;
+    transition: opacity 0.1s linear;
+
+    &:first-child {
+        margin-left: 0;
+
+    }
+
+    &:last-child {
+        padding-right: 1rem;
+    }
+    &:hover {
+        opacity: 1;
+    }
+
+    &:focus {
+        background-color: none;
+}
+
+    @media(max-width:$breakpoint_l){
+    padding: 0.7rem 1rem;
+
+    opacity: 0.8;
+    }
+}

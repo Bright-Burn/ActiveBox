@@ -1,0 +1,51 @@
+.features {
+    padding: 6.5rem 0;
+
+
+     @media (max-width: $breakpoint_l) {
+        padding: 3.5rem 0;
+    }
+     @media (max-width: $breakpoint_sm) {
+        padding: 2.5rem 0;
+    }
+}
+
+.feature__items {
+    text-align: center;
+}
+
+.features__icon {
+    margin-bottom: 1.2rem;
+}
+
+.features__title {
+    margin-bottom: 1.2rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: $black;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.features__text {
+    margin-bottom: 4rem;
+
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #6c7279;
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+.features__text--margin {
+
+    @media (min-width: $breakpoint_l){
+        margin-bottom: 0;
+    }
+
+
+
+}

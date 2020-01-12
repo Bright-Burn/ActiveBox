@@ -1,0 +1,55 @@
+ .burger {
+    display: none;
+    padding: 0;
+
+    background: none;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+
+
+    position: absolute;
+    top: 0.6rem;
+    right: 2rem;
+
+     @media(max-width:$breakpoint_l){
+         display: block;
+     }
+
+}
+
+.burger__item {
+
+
+
+    width: 2rem;
+    height: 0.2rem;
+
+    background-color: #fff;
+
+    font-size: 0;
+    color: transparent;
+
+    position: relative;
+
+    &:before, &:after {
+        content: "";
+        height: 100%;
+
+        background-color: $white;
+
+        position: absolute;
+        left: 0;
+        z-index: 1;
+    }
+
+    &:before {
+        top: 0.5rem;
+        width: 110%;
+    }
+
+    &:after {
+        top: -0.5rem;
+        width: 80%;
+    }
+}

@@ -1,0 +1,95 @@
+.team {
+    margin: 6.5rem 0;
+
+    @media (max-width: $breakpoint_sm){
+       margin: 3.5rem 0;
+    }
+
+}
+
+.team__photo {
+     @media (max-width: $breakpoint_lm){
+        display: block;
+        margin: 0 auto;
+
+    }
+}
+.team__content {
+    width: 100%;
+
+    @media (max-width: $breakpoint_lm){
+        text-align: center;
+    }
+}
+.team__name {
+    margin: 1.7rem 0 0.2rem;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: $black;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.team__prof {
+    margin-bottom: 1.7rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: #dd4440;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.team__text {
+    margin-bottom: 1.7rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6c7279;
+    font-family: 'Raleway', sans-serif;
+
+}
+//.team__social {
+//
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//}
+
+
+.team__social-item {
+
+
+    width: 2.6rem;
+    height: 2.6rem;
+
+
+    display: inline-block;
+    text-align: center;
+    line-height: 3.5;
+    margin-right: 0.5rem;
+//    padding: 0.1rem 0.3rem 0.1rem;
+    border: 1px solid #c6cacc;
+
+
+
+    &:hover .social__icon {
+        fill: $black;
+    }
+
+    @media (max-width: $breakpoint_lm){
+       margin-bottom: 1.5rem;
+
+    }
+}
+.social__icon {
+
+
+    width: 1.7rem;
+    height: 1.7rem;
+    fill: #c6cacc;
+
+
+}
